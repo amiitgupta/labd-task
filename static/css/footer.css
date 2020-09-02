@@ -1,0 +1,52 @@
+    .social-text p{
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+    .social-text a:hover {
+        color: rgb(38, 62, 94);
+    }
+    .social i{
+        padding: 0 10px;
+        font-size: 1.2rem;
+    }
+    .page-footer a {
+        color: rgb(43, 43, 43);
+        text-decoration: none;
+    }
+    .page-footer a:hover {
+        text-decoration: none;
+    }
+    .page-footer p {
+        color: rgb(43, 43, 43);
+    }
+    li {
+        color: rgb(43, 43, 43);
+    }
+    h6 {
+        color: rgb(23, 29, 29);
+    }
+    .line-bg {
+        background-color: rgb(131, 215, 218);
+    }
+    .footer-copyright {
+        background-color: #d5feff;
+    }
+    .footer-top {
+    max-height: 12vh;
+    position: relative;
+    top: 0;
+    width: 100%;
+    }
+    @media only screen and (max-width: 767px) {
+        .footer-top {
+        max-height: 18vh;
+    }
+    .social {
+        padding-top: 5px;
+    }
+    }
+    @media only screen and (max-width: 358px) {
+        .footer-top {
+        max-height: 23vh;
+    }
+    }
