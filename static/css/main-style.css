@@ -177,11 +177,6 @@
         display: inline-block;
         float: right;
     }
-    header .logo {
-        width: 105px;
-        padding: 0px 20px 0px 90px;
-        display: inline-block;
-    }
     .FQ {
         float: right;
         margin: 0px 90px 0px 0px;
@@ -1072,7 +1067,7 @@
         }
         .logo {
             padding: 0 !important;
-            width: 50px !important;
+            /* width: 50px !important; */
         }
         .boxs {
             margin: 0 !important;
