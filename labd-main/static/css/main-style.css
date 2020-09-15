@@ -497,9 +497,13 @@
     }
     /*Be You*/
     .beyou {
-        background: url("https://paytm.com/offer/wp-content/uploads/2019/07/group-75@2x.png");
-        background-repeat: no-repeat;
-        background-size: cover;
+        /* background: url("https://paytm.com/offer/wp-content/uploads/2019/07/group-75@2x.png"); */
+background: rgb(39,136,136);
+background: -moz-linear-gradient(90deg, rgba(39,136,136,1) 4%, rgba(57,140,157,0.8) 52%, rgba(39,136,136,0.8) 95%);
+background: -webkit-linear-gradient(90deg, rgba(39,136,136,1) 4%, rgba(57,140,157,0.8) 52%, rgba(39,136,136,0.8) 95%);
+background: linear-gradient(90deg, rgba(39,136,136,1) 4%, rgba(57,140,157,0.8) 52%, rgba(39,136,136,0.8) 95%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#278888",endColorstr="#278888",GradientType=1);        /* background-repeat: no-repeat;
+        background-size: cover; */
         padding: 100px 0px;
         text-align: center;
     }
